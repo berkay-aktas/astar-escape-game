@@ -1,0 +1,130 @@
+# ASP.NET Core / C# .gitignore
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio cache/options directory
+.vs/
+.vscode/
+
+# Rider
+.idea/
+
+# Build artifacts
+*.dll
+*.exe
+*.app
+*.log
+*.dbmdl
+*.bak
+*.cache
+*.pdb
+*.mdb
+*.tmp
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+.nuget/
+packages/
+
+# Entity Framework
+Migrations/
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+TestResult.xml
+
+# Coverage reports
+coverage/
+*.coverage
+*.coveragexml
+
+# Publish output
+publish/
+out/
+dist/
+wwwroot/
+
+# VS Code local history
+.history/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment & configuration files
+.env
+.env.*
+appsettings.json
+appsettings.Development.json
+appsettings.*.json
+
+# Sensitive files
+*.key
+*.pem
+*.pfx
+*.crt
+*.cer
+*.csr
+*.jks
+*.keystore
+
+# Secret Manager
+*.secrets.json
+*.secret
+
+# JetBrains Rider & ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# SQL & database
+*.mdf
+*.ldf
+*.ndf
+*.sqlite
+*.db
+
+# Temporary files
+~$*
+*.tmp
+*.swp
+
+# Docker / Containers
+docker-compose.override.yml
+*.pid
+
+# Optional: ignore documentation builds
+docs/_site/
+docs/_build/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Ignore build artifacts
+[Bb]uilds/
+[Bb]uild/
